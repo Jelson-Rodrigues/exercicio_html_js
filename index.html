@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Comparador de Valores Ebac</h1>
+        <form id="formulario">
+            <p class="sub-title">
+                O valor no Campo B tem que ser maior que no Campo A.
+            </p>
+
+            <div>
+                <div>
+                    <label for="campoA" class="rotulo">Campo A</label>
+                    <input type="number" id="campo-a" class="input-campo">
+                </div>
+
+                <div>
+                    <label for="campoB" class="rotulo">Campo B</label>
+                    <input type="number" id="campo-b" class="input-campo">
+                </div>
+            </div>
+
+            <div>
+                <p id="message" class="message"></p>
+            </div>
+            <button id="btn-enviar" type="submit" class="botao">Enviar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
